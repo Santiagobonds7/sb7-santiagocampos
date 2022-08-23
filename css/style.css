@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* logo inicial */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.imagenLogo{
+    display: flexbox;
+    margin: 0px auto;
+    width: 150px;
+    height: 150px;
+    
+}
+
+nav ul{
+    list-style: none;
+    background-color: black;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 5px 30px;
+}
+
+nav ul li a{
+    text-decoration: solid;
+    color: #efb810;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100px;
+}
+
+main .img-responsive{
+width: 100%;
+}
+
+.contenedorCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contenedorCards .cardsSl{
+    width: 18rem;
+    height: 34rem;
+    padding: 1rem;
+    background-color: black;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorCards .cardsSl:hover{
+    box-shadow: 10px 10px 11px black;
+    background-color: #efb810;
+    width: 20rem;
+}
+
+.contenedorCards .cardsSl .contImgCard .imgCard{
+    width: 100%;
+    height: 27rem;
+    border-radius: 5%;
+}
+
+footer{
+    background-color: #efb810;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .contactInd{
+    display: flex;
+    justify-content: left;
+    list-style: none;
+
+
+}
+
+.tituloInf{
+    text-align: center;
+}
+
+.listaDeInf{
+    text-align: center;
+    padding: 50px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.copy{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+    font-size: larger;
+    margin-right: 50px;
+}
+
+/* cards socks */
+.contenedorCardsSocks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contenedorCardsSocks .cardsSocks1{
+    width: 18rem;
+    height: 34rem;
+    padding: 1rem;
+    background-color: black;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorCardsSocks .cardsSocks1:hover{
+    box-shadow: 10px 10px 11px black;
+    background-color: #efb810;
+    width: 20rem;
+}
+
+.contenedorCardsSocks .cardsSocks1 .contImgCardSocks1 .imgCardSocks1{
+    width: 100%;
+    height: 27rem;
+    border-radius: 5%;
+}
+
+.contenedorCardsSocks .cardsSocks1 .contTxtCard .tituloCard, .precioCard{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+}
+
+.contenedorCardsSocks .cardsSocks1 .contBtnCard{
+    width: 100%;
+}
+
+.contenedorCardsSocks .cardsSocks1 .contBtnCard .btnComprar{
+    font-family: monospace;
+    font-size: 22px;
+    font-weight: bolder;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    border: 0;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.iframe{
+    display: flex;
+    justify-content: center;
+
+}
