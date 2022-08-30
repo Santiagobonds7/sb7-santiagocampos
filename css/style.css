@@ -153,8 +153,10 @@ footer .contactInd{
     padding: 10px;
     border-radius: 20px;
 }
-.iframe{
-    display: flex;
-    justify-content: center;
-
+.InformacionX{
+    color: #efb810;
+}
+.InformacionY{
+    color: #efb810;
+margin: 10px;    
 }
